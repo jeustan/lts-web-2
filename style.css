@@ -998,6 +998,9 @@ footer {
 }
 
 @media (max-width: 870px) {
+    .substack-iframe-container {
+        border: none;
+    }
     .contact-content {
         grid-template-columns: 1fr;
         justify-content: center;
