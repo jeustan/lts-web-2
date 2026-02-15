@@ -43,7 +43,7 @@
             attributeName="offset"
             dur="600ms"
             values="0; 1"
-            begin="0s; flashMove.end+1s"
+            begin="0s; flashMove.end+15s"
             calcMode="spline"
             keySplines="0.42 0 0.58 1"
             fill="freeze" />
