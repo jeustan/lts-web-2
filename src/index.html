@@ -10,7 +10,7 @@
   <body class="bg-mauve-300">
     <div class="container">
       <header>
-          <div class="grid grid-cols-3 items-center divide-x-2 divide-y-2 divide-black-500">
+          <div class="grid grid-cols-3 grid-rows-2 grid-rows-2 items-center divide-x-2 divide-y-2 divide-black-500">
               
             <div class="h-full p-5 col-span-2">
               <a href="#home" class="flex flex-row items-center">
@@ -19,19 +19,21 @@
               </a>
             </div>
 
-            <div class="h-full flex-auto md:text-sm lg:text-xl xl:text-2xl 2xl:text-4xl p-5 flex justify-center items-center m-0">
+            <div class="h-full col-span-1 flex-auto md:text-sm lg:text-xl xl:text-2xl 2xl:text-4xl p-5 flex justify-center items-center m-0">
               <h2>Websites for real people.</h2>
             </div>
-  
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#newsletter">Newsletter</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
+            
+            <div class="h-full col-span-3 content-center divide-y-2">
+              <nav class="h-full">
+                  <ul class="h-full content-center grid grid-cols-5 text-center divide-x-2 divide-black-500">
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#products">Products</a></li>
+                      <li><a href="#newsletter">Newsletter</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                  </ul>
+              </nav>
+            </div>
 
             <!-- <div class="mobile-menu">
                 <span></span>
