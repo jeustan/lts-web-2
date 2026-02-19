@@ -17,6 +17,8 @@
     --color-violet-600: oklch(54.1% 0.281 293.009);
     --color-fuchsia-400: oklch(74% 0.238 322.16);
     --color-fuchsia-500: oklch(66.7% 0.295 322.15);
+    --color-mauve-100: oklch(96% 0.003 325.6);
+    --color-mauve-200: oklch(92.2% 0.005 325.62);
     --color-mauve-300: oklch(86.5% 0.012 325.68);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -362,6 +364,12 @@
   .border-l-2 {
     border-left-style: var(--tw-border-style);
     border-left-width: 2px;
+  }
+  .bg-mauve-100 {
+    background-color: var(--color-mauve-100);
+  }
+  .bg-mauve-200 {
+    background-color: var(--color-mauve-200);
   }
   .bg-mauve-300 {
     background-color: var(--color-mauve-300);
