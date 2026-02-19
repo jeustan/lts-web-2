@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+body {
+    padding-top: 3.5em;
+    margin: 0;
+}
+
+.container {
+  width: 100%;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+    border-style: solid;
+    border-width: 2px 0 0 2px;
+}
+
+/* Responsive Design */
+@media (min-width: 1640px) {
+  .container {
+    max-width: 1632px;
+  }
+
+@media (min-width: 1545px) {
+
+}
+
+}
